@@ -1,0 +1,12 @@
+/* Typography tweaks */
+body { font-feature-settings: "kern" 1, "liga" 1; }
+.navbar-brand { letter-spacing: 0.3px; }
+.content p { margin-bottom: 1rem; }
+
+
+/* Card hover */
+.card:hover { transform: translateY(-2px); transition: transform .15s ease; }
+
+
+/* Responsive helpers */
+img { max-width: 100%; height: auto; }

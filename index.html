@@ -1,0 +1,19 @@
+---
+layout: default
+hero:
+title: "Live Well Belmont Shore"
+lede: "Putting residents first in Belmont Shore, Long Beach, CA."
+---
+<div class="row g-4">
+{% for post in site.posts %}
+<div class="col-md-6 col-lg-4">
+<div class="card h-100 shadow-sm">
+<div class="card-body d-flex flex-column">
+<h2 class="h5 card-title"><a class="stretched-link text-decoration-none" href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+<p class="card-text text-muted">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+<p class="mt-auto small text-secondary">{{ post.date | date: "%b %-d, %Y" }}</p>
+</div>
+</div>
+</div>
+{% endfor %}
+</div>
