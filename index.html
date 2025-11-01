@@ -5,7 +5,7 @@ title: Home
 
 <!-- Welcome Section -->
 <section class="py-5 border-bottom" style="background-color: #e9f9e5;">
-  <div class="container">
+  <div class="container text-start">
     <h2 class="fw-bold mb-3">Welcome</h2>
     <p class="lead fw-semibold mb-0" style="font-size: 1.5rem;">
       We're building a better Shore, by putting residents first.
@@ -15,18 +15,22 @@ title: Home
 
 <!-- Current Initiatives Section -->
 <section class="py-5" style="background-color: #f8f9fa;">
-  <div class="container">
-    <h3 class="fw-bold mb-3 text-start">Our current initiatives are to:</h3>
-    <ul class="text-start mb-0">
+  <div class="container text-start">
+    <h3 class="fw-bold mb-3">Our current initiatives are to:</h3>
+    <ul class="mb-0">
       <li>Have all 2nd Street bars close at midnight.</li>
       <li>Require permitted parking throughout the Shore.</li>
-      <li>Install engineered traffic calming on all north-south avenues, Ocean, and Toledo. 
-      <li>Compliance with and strict enforcement of <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB413">CA Assembly Bill 413.</a></li>
-    </ul><br>
+      <li>Install engineered traffic calming on all north-south avenues, Ocean, and Toledo.</li>
+      <li>Compliance with and strict enforcement of
+        <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB413">CA Assembly Bill 413</a>.
+      </li>
+    </ul>
+
+    <hr class="my-5">
+
     <h3 class="fw-bold mb-3">Ready to take your community back?</h3>
     <p class="lead mb-4">Join our mailing list and we'll keep you in the loop on calls to action.</p>
     <a href="#" class="btn btn-primary btn-lg shadow-sm">Join the Mailing List</a>
-  </div>
   </div>
 </section>
 
@@ -43,7 +47,7 @@ title: Home
               <a class="stretched-link text-decoration-none" href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h2>
             <p class="card-text text-muted">{{ post.excerpt | strip_html | truncate: 120 }}</p>
-            <p class="mt-auto small text-secondary">{{ post.date | date: "%b %-d, %Y" }}</p>
+            <p class="mt-auto small text-secondary mb-0">{{ post.date | date: "%b %-d, %Y" }}</p>
           </div>
         </div>
       </div>
