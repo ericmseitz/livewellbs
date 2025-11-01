@@ -24,15 +24,10 @@ title: Contact
       </iframe>
     </div>
 
-    <p class="text-muted mt-3 small">
-      Tip: If the form looks cramped on mobile, we can tweak the ratio or height; try <code>ratio-1x1</code> or increase the <code>height</code> value.
-    </p>
-
     <hr class="my-5">
 
     <h3 class="h5 fw-bold mb-3">Other ways to reach us</h3>
     <ul class="list-unstyled">
-      <li class="mb-1">Email: <a href="mailto:livewellbelmontshore@gmail.com">livewellbelmontshore@gmail.com</a></li>
       {% if site.social.instagram %}
       <li class="mb-1">Instagram: <a href="https://instagram.com/{{ site.social.instagram }}" target="_blank" rel="noopener">instagram.com/{{ site.social.instagram }}</a></li>
       {% else %}
