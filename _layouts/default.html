@@ -37,15 +37,17 @@
 
         <!-- Right side: About / Contact links -->
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            {% for item in site.nav %}
-              {% if item.title != "Home" %}
-                <li class="nav-item">
-                  <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
+<ul class="navbar-nav ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
+  </li>
+  {% for item in site.nav %}
+  <li class="nav-item">
+    <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
         </div>
       </div>
     </nav>
