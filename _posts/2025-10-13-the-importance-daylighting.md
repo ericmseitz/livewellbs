@@ -1,6 +1,6 @@
 ---
 title: "The Importance of Daylighting — A Simple Fix for Safer Streets"
-date: 2025-11-02
+date: 2025-10-04
 ---
 
 In a community as walkable and lively as **Belmont Shore**, visibility at intersections can mean the difference between safety and tragedy. Yet across our neighborhood, cars and oversized SUVs routinely park right up to the corners of cross streets — blocking sight lines and forcing drivers, cyclists, and pedestrians to edge out dangerously into traffic.  

@@ -1,6 +1,6 @@
 ---
 title: "Deadly Shooting on Second Street in Belmont Shore"
-date: 2025-11-02
+date: 2024-03-02
 ---
 
 Late on the night of Sunday, February 18, 2024, a 32-year-old Long Beach resident, Johnny Santos, was shot and killed in the 5300 block of Second Street — the heart of the Belmont Shore bar and restaurant district. :contentReference[oaicite:1]{index=1}  

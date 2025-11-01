@@ -1,6 +1,6 @@
 ---
 title: "Recent Violence in Belmont Shore: A Troubling Pattern"
-date: 2025-11-01
+date: 2025-1-20
 ---
 
 Over the past few years, Belmont Shore has experienced a string of violent incidents that have raised growing concern among residents and city leaders. What was once a quiet, walkable coastal neighborhood has increasingly seen late-night conflicts spill into its streets.  

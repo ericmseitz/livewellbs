@@ -1,6 +1,6 @@
 ---
 title: "Fatal Stabbing at Dave’s Hot Chicken on Second Street"
-date: 2025-11-02
+date: 2024-02-19
 ---
 
 A tragic incident occurred early Sunday morning when a 20-year-old man was stabbed to death during a fight inside Dave’s Hot Chicken on the 5200 block of East Second Street in the heart of the Belmont Shore bar and restaurant district. :contentReference[oaicite:2]{index=2}
