@@ -1,34 +1,28 @@
 title: "Live Well Belmont Shore"
-description: "A resident-first neighborhood association in Long Beach, CA."
-url: "" # set this to https://<your-username>.github.io or custom domain later
-baseurl: "" # for user/organization site leave empty
+description: "A resident-first neighborhood association in Belmont Shore, Long Beach, CA."
+url: "https://ericmseitz.github.io"   # your GitHub Pages root
+baseurl: "/livewellbs"                 # repo path; keep leading slash
+
 permalink: /:categories/:title/
 markdown: kramdown
-
-
 theme: null
+
 plugins:
-- jekyll-feed
-- jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-seo-tag
 
-
-# Navigation (editable)
 nav:
-- title: Home
-url: /
-- title: About
-url: /about/
-- title: Contact
-url: /contact/
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
 
-
-# Social (optional)
 social:
-twitter: ""
-instagram: ""
-facebook: ""
+  twitter:
+  instagram:
+  facebook:
 
-
-# Organization meta
 org_name: "Live Well Belmont Shore"
-org_city: "Long Beach, CA"
+org_city: "Belmont Shore, Long Beach, CA"
