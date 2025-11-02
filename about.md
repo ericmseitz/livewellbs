@@ -14,4 +14,4 @@ title: About
 - An improved quality of life
 
 
-Want to get involved? Reach out on the Contact page.
+Want to get involved? Reach out on the <a href="{{ '/contact/' | relative_url }}">Contact page</a>.
